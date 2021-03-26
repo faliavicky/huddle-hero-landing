@@ -1,0 +1,85 @@
+$violet: hsl(257, 40%, 49%);
+$soft-magenta: hsl(300, 69%, 71%);
+
+@mixin fontHeading {
+    font-family: 'Poppins';
+    font-weight: 600;    
+}
+@mixin fontBody {
+    font-family: 'Open Sans';
+    font-weight: 400;    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.background{
+    background-color: $violet;
+    height: 100vh;
+}
+.background-cover-{
+    height: 100vh;
+    position: absolute;
+}
+.logo{
+    width: 160px;
+    margin-top: 40px;
+    margin-left: 80px;
+    position: absolute;
+}
+.mockup{
+    position: absolute;
+    width: 600px;
+    margin-top: 125px;
+    margin-left: 80px;
+}
+.heading{
+    position: absolute;
+    @include fontHeading;
+    color: #ffffff;
+    font-size: 32px;
+    margin-top: 164px;
+    margin-left: 740px;
+}
+.caption{
+    @include fontBody;
+    color: #ffffff;
+    font-size: 14px;
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 740px;
+    line-height: 22px;
+}
+button{
+    margin-left: 740px;
+    position: absolute;
+    margin-top: 368px;
+    border-radius: 20px;
+    width: 150px;
+    @include fontBody;
+    background-color: #ffffff;
+    color: $violet;
+    border: none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    -webkit-box-shadow: 3px 4px 15px 0px rgba(0,0,0,0.47); 
+    box-shadow: 3px 4px 15px 0px rgba(0,0,0,0.47);
+    transition: 0.1s ease-in;
+}
+button:hover{
+    background-color: $soft-magenta;
+    color: #ffffff;
+    cursor: pointer;
+}
+.sosmedArea {
+    float: right;
+    margin-right: 80px;
+    margin-top: 540px;
+    img {
+        padding: 8px;
+    }
+    img:hover{
+        cursor: pointer;
+    }
+}

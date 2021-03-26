@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  background-color: #674baf;
+  height: 100vh;
+}
+
+.background-cover- {
+  height: 100vh;
+  position: absolute;
+}
+
+.logo {
+  width: 160px;
+  margin-top: 40px;
+  margin-left: 80px;
+  position: absolute;
+}
+
+.mockup {
+  position: absolute;
+  width: 600px;
+  margin-top: 125px;
+  margin-left: 80px;
+}
+
+.heading {
+  position: absolute;
+  font-family: "Poppins";
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 32px;
+  margin-top: 164px;
+  margin-left: 740px;
+}
+
+.caption {
+  font-family: "Open Sans";
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  position: absolute;
+  margin-top: 280px;
+  margin-left: 740px;
+  line-height: 22px;
+}
+
+button {
+  margin-left: 740px;
+  position: absolute;
+  margin-top: 368px;
+  border-radius: 20px;
+  width: 150px;
+  font-family: "Open Sans";
+  font-weight: 400;
+  background-color: #ffffff;
+  color: #674baf;
+  border: none;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  -webkit-box-shadow: 3px 4px 15px 0px rgba(0, 0, 0, 0.47);
+  box-shadow: 3px 4px 15px 0px rgba(0, 0, 0, 0.47);
+  transition: 0.1s ease-in;
+}
+
+button:hover {
+  background-color: #e882e8;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.sosmedArea {
+  float: right;
+  margin-right: 80px;
+  margin-top: 540px;
+}
+.sosmedArea img {
+  padding: 8px;
+}
+.sosmedArea img:hover {
+  cursor: pointer;
+}
